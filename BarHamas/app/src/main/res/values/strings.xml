@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BarHamas</string>
+    <string name="title_section1">DataMatrix</string>
+    <string name="title_section2">EAN13</string>
+    <string name="title_section3">2of5/ITF</string>
+    <string name="value">Input:</string>
+    <string name="ok">OK</string>
+    <string name="fill_with_valid_ean">Beispiel-Nummer</string>
+    <string name="example_number">7612345678900</string>
+    <!--<string name="action_settings">Settings</string>-->
+
+</resources>

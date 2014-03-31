@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ch.migros.app.barcodetest.BarHamasActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/inputCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value"
+        android:layout_alignBaseline="@+id/inputField"
+        android:layout_marginLeft="15dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/inputCaption"
+        android:layout_toLeftOf="@+id/confirmInputButton"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/confirmInputButton"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/inputField"
+        android:layout_alignBottom="@+id/inputField"
+        android:text="@string/ok"
+        android:layout_alignParentRight="true"/>
+
+
+    <ImageView
+        android:id="@+id/barhamasImageView"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/inputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/barhamasImageView"
+        android:id="@+id/barcodeValueDisplay"/>
+    </RelativeLayout>
